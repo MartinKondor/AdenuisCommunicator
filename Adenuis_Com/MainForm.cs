@@ -95,7 +95,7 @@ namespace Adenuis_Com
                 {
                     receivedChar = '\n';
                 }
-                receivedText += receivedChar.ToString();
+                receivedText += receivedChar.ToString();   
 
                 // TODO: Call this once, when the data stream ends
                 Invoke(new Action(() =>

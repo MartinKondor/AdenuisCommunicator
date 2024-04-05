@@ -9,7 +9,10 @@ serial_port = 'COM4'  # Adjust the port name based on your system (e.g., 'COM1' 
 baud_rate = 115200
 
 data_to_send = """
-test data 1\ntest data 2\ntest data 3\ntest data 4\ntest data 5\ntest data 6\ntest data 7\n
+Here are some test characters to send: 01234567. Here are some test characters to send: 01234567. Here are some test characters to send: 01234567. Here are some test characters to send: 01234567. Here are some test characters to send: 01234567. Here are some test characters to send: 01234567.
+
+
+Here are some test characters to send: 01234567. Here are some test characters to send: 01234567. Here are some test characters to send: 01234567. Here are some test characters to send: 01234567. Here are some test characters to send: 01234567. Here are some test characters to send: 01234567.
 """.strip()
 
 try:

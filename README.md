@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./Images/sch_static.png" height="500px">
+  <img src="./Images/sch_playable.gif" height="500px">
 </p>
 
 # AdenuisCommunicator
