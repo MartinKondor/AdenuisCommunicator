@@ -1,0 +1,670 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!--
+    Microsoft ResX Schema 
+
+    Version 2.0
+
+    The primary goals of this format is to allow a simple XML format
+    that is mostly human readable. The generation and parsing of the
+    various data types are done through the TypeConverter classes
+    associated with the data types.
+
+    Example:
+
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+
+    There are any number of "resheader" rows that contain simple
+    name/value pairs.
+
+    Each data row contains a name, and value. The row also contains a
+    type or mimetype. Type corresponds to a .NET class that support
+    text/value conversion through the TypeConverter architecture.
+    Classes that don't support this are serialized and stored with the
+    mimetype set.
+
+    The mimetype is used for serialized objects, and tells the
+    ResXResourceReader how to depersist the object. This is currently not
+    extensible. For a given mimetype the value must be set accordingly:
+
+    Note - application/x-microsoft.net.object.binary.base64 is the format
+    that the ResXResourceWriter will generate, however the reader can
+    read any of the formats listed below.
+
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="sendLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="sendBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAODYAAAEAIAAYMQAAFgAAACgAAAA4AAAAbAAAAAEAIAAAAAAAQC8AAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAChb8QwoW/FIKFvxgShb8agoW/HOKFvx6ihb8fUoW/H/KFvx/yhb
+        8fUoW/HqKFvxzihb8agoW/GBKFvxSChb8QwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKFvxFShb
+        8WooW/HCKFvx/Chb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb
+        8f8oW/H/KFvx/Chb8cIoW/FqKFvxFQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKFvxLyhb8aUoW/H7KFvx/yhb8f8oW/H/KFvx/yhb
+        8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb
+        8f8oW/H7KFvxpShb8S8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAKFvxJChb8bIoW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb
+        8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb
+        8bIoW/EkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKFvxByhb8YYoW/H5KFvx/yhb
+        8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb
+        8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8fkoW/GGKFvxBwAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAChb8ScoW/HPKFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb
+        8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb
+        8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/HPKFvxJwAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAoW/FNKFvx9Shb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb
+        8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb
+        8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H1KFvxTQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKFvxaihb8f0oW/H/KFvx/yhb
+        8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb
+        8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb
+        8f8oW/H/KFvx/yhb8f8oW/H9KFvxagAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAChb8WooW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb
+        8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb
+        8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb
+        8f8oW/H/KFvxagAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAoW/FcKFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb
+        8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb
+        8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvxXAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKFvxNihb8fkoW/H/KFvx/yhb
+        8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb
+        8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb
+        8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H5KFvxNgAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAChb8RQoW/HiKFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb
+        8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb
+        8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f9ylPb/wdD7/9fh/P+5yvr/YYf1/yhb8f8oW/H/KFvx/yhb
+        8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/HiKFvxFAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAKFvxpShb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb
+        8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb
+        8f8oW/H/p7z5////////////////////////////h6T3/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb
+        8f8oW/H/KFvx/yhb8f8oW/GlAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAChb8UYoW/H/KFvx/yhb
+        8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/y1e8f8oW/H/KFvx/yhb
+        8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/2CF9f///////////+3x
+        /v/Az/v/9vj+///////8/f//Q3Dz/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb
+        8f8oW/FGAAAAAAAAAAAAAAAAAAAAAAAAAAAoW/ECKFvx1ihb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb
+        8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8tX/H/RnHz/+rv/v/y9f7/8vX+//L1/v/y9f7/8vX+//L1
+        /v/y9f7/8vX+//L1/v/y9f7/8vX+//L1/v/y9f7/+fv////////8/P//QG7z/yhb8f9cg/T/////////
+        //+Bn/f/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8dYoW/ECAAAAAAAA
+        AAAAAAAAAAAAAChb8VgoW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb
+        8f8oW/H/KFvx/yhb8f/K1vz/////////////////////////////////////////////////////////
+        //////////////////////////////b4/v8xYvL/KFvx/0hz8////////////4ik9/8oW/H/KFvx/yhb
+        8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8VgAAAAAAAAAAAAAAAAAAAAAKFvx1Chb
+        8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/Ll/x/2WJ
+        9f/+/v///////+zx/v9ukPb/a471/2uO9f9rjvX/a471/2uO9f9rjvX/a471/2uO9f9rjvX/a471/5+1
+        +P///////////8/a/P+Qqvj/3ub9////////////VX30/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb
+        8f8oW/H/KFvx/yhb8f8oW/H/KFvx1AAAAAAAAAAAAAAAAChb8TooW/H/KFvx/yhb8f8oW/H/KFvx/yhb
+        8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/Kl3x/5qy+P///////////5y0
+        +f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/K17x/8zY/P//////////////
+        /////////////7DD+v8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb
+        8f8oW/H/KFvxOgAAAAAAAAAAKFvxmihb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb
+        8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KVzx/8rW/P///////v7//2aK9f8uX/H/KFvx/yhb
+        8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/MWLy/6G3+f/x9P7//////+nu/v+Rq/j/K13x/yhb
+        8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/GaAAAAAChb
+        8QEoW/HrKFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb
+        8f8oW/H/KFvx/yhb8f8sXvH/Omjy/+vw/v//////8PP+/z1r8v8sXvH/KFvx/yhb8f8oW/H/KFvx/yhb
+        8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8uYPH/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb
+        8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8esoW/EBKFvxMChb8f8oW/H/KFvx/yhb
+        8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb
+        8f8uX/H/XoT0//z9////////z9r8/ypd8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb
+        8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb
+        8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8TAoW/FyKFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb
+        8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8rXfH/kav4////
+        ////////nrX5/ypc8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb
+        8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb
+        8f8oW/H/KFvxcihb8Z4oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb
+        8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8pW/H/wtH7///////+/v//ao31/y5f
+        8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb
+        8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/GeKFvxxihb
+        8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb
+        8f8oW/H/KFvx/yhb8f8oW/H/KFvx/ytd8f81ZfL/5+39///////6+///6e7+/+nv/v+1xvr/S3Xz/yhb
+        8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb
+        8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8cYoW/HnKFvx/yhb8f8oW/H/KFvx/yhb
+        8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb
+        8f8oW/H/KFvx/y5f8f9ukPb////////////////////////////2+P7/U3z0/yhb8f8oW/H/KFvx/yhb
+        8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb
+        8f8oW/H/KFvx/yhb8f8oW/H/KFvx5yhb8fQoW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb
+        8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/73M
+        +////////////7/O+/+3yPr//v7////////Q2/z/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb
+        8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb
+        8f8oW/H0KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb
+        8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/9/n+//////+2yPr/KFvx/yhb
+        8f+kuvn///////////8yY/L/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb
+        8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb
+        8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb
+        8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f/3+f7//////7bH+v8oW/H/KFvx/6K4+f///////////zJj
+        8v8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb
+        8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8fQoW/H/KFvx/yhb8f8oW/H/KFvx/yhb
+        8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb
+        8f8oW/H/KFvx/73N+////////////73N+/+2yPr//v7////////R3Pz/KVzx/yhb8f8oW/H/KFvx/yhb
+        8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb
+        8f8oW/H/KFvx/yhb8f8oW/H0KFvx5yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb
+        8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/SHPz/+/z
+        /v///////////////////////////7fI+v8pXPH/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb
+        8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb
+        8ecoW/HGKFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb
+        8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/RHDz/7HD+v/p7v7/6/D+/+Xr
+        /f///////////2+R9v8tX/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb
+        8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvxxihb8Z4oW/H/KFvx/yhb
+        8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb
+        8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8pXPH/L2Dx/9zk/f//////9Pf+/0Nv
+        8/8tXvH/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb
+        8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/GeKFvxcihb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb
+        8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb
+        8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8tX/H/SHTz//b4/v//////1+D8/yxe8f8pXPH/KFvx/yhb
+        8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb
+        8f8oW/H/KFvx/yhb8XIoW/EwKFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb
+        8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb
+        8f8oW/H/KFvx/yhb8f8tX/H/dZb2////////////p7z5/ylc8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb
+        8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvxMChb
+        8QEoW/HrKFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb
+        8f8oW/H/QG3z/2eL9f9cg/T/LmDx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb
+        8f8pXPH/qb35////////////cJL2/y1f8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb
+        8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8esoW/EBAAAAAChb8ZooW/H/KFvx/yhb
+        8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/LmDx/6y/+v/+/v//////////
+        ///s8f7/a471/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/ylc8f8sXvH/1+D8////
+        ///19/7/RXHz/y1f8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb
+        8f8oW/H/KFvx/yhb8f8oW/H/KFvxmgAAAAAAAAAAKFvxOihb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb
+        8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f+rv/r////////////////////////////8/P//WoL0/y1f
+        8f8tX/H/LV/x/y1f8f8tX/H/LV/x/y1f8f8tX/H/LV/x/ylb8f9Cb/P/8vX+///////Z4v3/LV/x/ylc
+        8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb
+        8f8oW/E6AAAAAAAAAAAAAAAAKFvx1Chb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb
+        8f8oW/H/Omny//7+////////1d/8/1uC9P98m/b//Pz////////M2Pz/eJj2/3iY9v94mPb/eJj2/3iY
+        9v94mPb/eJj2/3iY9v94mPb/eJj2/3iY9v+3yPr///////////+rv/r/KVzx/yhb8f8oW/H/KFvx/yhb
+        8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx1AAAAAAAAAAAAAAAAAAA
+        AAAoW/FYKFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f9bgvT/////////
+        //9rjvX/KFvx/yhb8f/D0fv///////b4/v//////////////////////////////////////////////
+        /////////////////////////////+Ho/f8pXPH/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb
+        8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/FYAAAAAAAAAAAAAAAAAAAAAChb8QIoW/HWKFvx/yhb
+        8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/0Vx8////////////7TG+v8tX/H/SHPz/+/z
+        /v//////7vL+//L1/v/y9f7/8vX+//L1/v/y9f7/8vX+//L1/v/y9f7/8vX+//L1/v/y9f7/8vX+//L1
+        /v/y9f7/bY/2/y5f8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb
+        8f8oW/H/KFvx1ihb8QIAAAAAAAAAAAAAAAAAAAAAAAAAAChb8UYoW/H/KFvx/yhb8f8oW/H/KFvx/yhb
+        8f8oW/H/KFvx/yhb8f8oW/H/KFvx/8rW/P////////////r7//////////////////9zlPb/KFvx/yhb
+        8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb
+        8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/FGAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAChb8aUoW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb
+        8f8oW/H/QG3z/9rj/f//////////////////////m7L4/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb
+        8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb
+        8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvxpQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAKFvxFChb8eIoW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/LV/x/3GT
+        9v+cs/n/kKr4/1B59P8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb
+        8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb
+        8f8oW/H/KFvx/yhb8eIoW/EUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKFvxNihb
+        8fkoW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb
+        8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb
+        8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H5KFvxNgAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKFvxXChb8f8oW/H/KFvx/yhb
+        8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb
+        8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb
+        8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8VwAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKFvxaihb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb
+        8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb
+        8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb
+        8f8oW/H/KFvx/yhb8f8oW/FqAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAKFvxaihb8f0oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb
+        8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb
+        8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H9KFvxagAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAKFvxTShb8fUoW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb
+        8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb
+        8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx9Shb8U0AAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKFvxJyhb
+        8c8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb
+        8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb
+        8f8oW/H/KFvx/yhb8c8oW/EnAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKFvxByhb8YYoW/H5KFvx/yhb
+        8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb
+        8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8fkoW/GGKFvxBwAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAChb8SQoW/GyKFvx/yhb8f8oW/H/KFvx/yhb
+        8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb
+        8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/GyKFvxJAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAoW/EvKFvxpShb8fsoW/H/KFvx/yhb8f8oW/H/KFvx/yhb
+        8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb
+        8fsoW/GlKFvxLwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAKFvxFShb8WooW/HCKFvx/Chb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb
+        8f8oW/H/KFvx/yhb8f8oW/H/KFvx/yhb8f8oW/H/KFvx/Chb8cIoW/FqKFvxFQAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAoW/EMKFvxSChb8YEoW/GoKFvxzihb8ekoW/H1KFvx/yhb8f8oW/H1KFvx6Shb
+        8c4oW/GoKFvxgShb8UgoW/EMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD///AAD///AP//gAAB//8A//4AAAB/
+        /wD/+AAAAB//AP/gAAAAB/8A/8AAAAAD/wD/gAAAAAH/AP8AAAAAAP8A/gAAAAAAfwD8AAAAAAA/APgA
+        AAAAAB8A8AAAAAAADwDwAAAAAAAPAOAAAAAAAAcAwAAAAAAAAwDAAAAAAAADAMAAAAAAAAMAgAAAAAAA
+        AQCAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAQCAAAAAAAABAMAAAAAAAAMAwAAAAAAAAwDAAAAAAAADAOAA
+        AAAAAAcA8AAAAAAADwDwAAAAAAAPAPgAAAAAAB8A/AAAAAAAPwD+AAAAAAB/AP8AAAAAAP8A/4AAAAAB
+        /wD/wAAAAAP/AP/gAAAAB/8A//gAAAAf/wD//gAAAH//AP//gAAB//8A///wAA///wA=
+</value>
+  </data>
+  <data name="loggerLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>402, 239</value>
+  </data>
+  <data name="receivedTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;portBox.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;clearBtn.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="sendLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="receivedTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 86</value>
+  </data>
+  <data name="&gt;&gt;button1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;sendTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="sendBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Semibold, 12pt, style=Bold</value>
+  </data>
+  <data name="portLabel.Text" xml:space="preserve">
+    <value>Port:</value>
+  </data>
+  <data name="&gt;&gt;sendLabel.Name" xml:space="preserve">
+    <value>sendLabel</value>
+  </data>
+  <data name="&gt;&gt;sendTextBox.Name" xml:space="preserve">
+    <value>sendTextBox</value>
+  </data>
+  <data name="sendTextBox.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;sendFileBtn.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;loggerLabel.Name" xml:space="preserve">
+    <value>loggerLabel</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="$this.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="&gt;&gt;portBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="portLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="portBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>62, 12</value>
+  </data>
+  <data name="sendBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>240, 204</value>
+  </data>
+  <data name="statusLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>170, 20</value>
+  </data>
+  <data name="&gt;&gt;receivedLabel.Name" xml:space="preserve">
+    <value>receivedLabel</value>
+  </data>
+  <data name="sendTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>187, 80</value>
+  </data>
+  <data name="portBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Semibold, 12pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;sendTextBox.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="receivedLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>82, 21</value>
+  </data>
+  <data name="clearBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Semibold, 12pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;sendLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;clearBtn.Name" xml:space="preserve">
+    <value>clearBtn</value>
+  </data>
+  <data name="button1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Semibold, 12pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;loggerLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;statusLabel.Name" xml:space="preserve">
+    <value>statusLabel</value>
+  </data>
+  <data name="sendLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>240, 62</value>
+  </data>
+  <data name="&gt;&gt;portBox.Name" xml:space="preserve">
+    <value>portBox</value>
+  </data>
+  <data name="&gt;&gt;loggerLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="receivedTextBox.ScrollBars" type="System.Windows.Forms.ScrollBars, System.Windows.Forms">
+    <value>Vertical</value>
+  </data>
+  <data name="receivedTextBox.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="portLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 21</value>
+  </data>
+  <data name="&gt;&gt;portLabel.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;receivedLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Adeunis Com</value>
+  </data>
+  <data name="&gt;&gt;sendLabel.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="clearBtn.Text" xml:space="preserve">
+    <value>Törlés</value>
+  </data>
+  <data name="button1.Text" xml:space="preserve">
+    <value>Fájl küldése</value>
+  </data>
+  <data name="&gt;&gt;sendBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="sendTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>240, 86</value>
+  </data>
+  <data name="&gt;&gt;sendBtn.Name" xml:space="preserve">
+    <value>sendBtn</value>
+  </data>
+  <data name="clearBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>187, 32</value>
+  </data>
+  <data name="&gt;&gt;sendFileBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;statusLabel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Main</value>
+  </data>
+  <data name="sendBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>187, 32</value>
+  </data>
+  <data name="&gt;&gt;portLabel.Name" xml:space="preserve">
+    <value>portLabel</value>
+  </data>
+  <data name="sendTextBox.ScrollBars" type="System.Windows.Forms.ScrollBars, System.Windows.Forms">
+    <value>Vertical</value>
+  </data>
+  <data name="portBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>102, 29</value>
+  </data>
+  <data name="sendLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 21</value>
+  </data>
+  <data name="&gt;&gt;portLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;sendBtn.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;statusLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;button1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;loggerLabel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;portBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="receivedLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Semibold, 12pt, style=Bold</value>
+  </data>
+  <data name="sendFileBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>240, 172</value>
+  </data>
+  <data name="portBox.Text" xml:space="preserve">
+    <value>COMXY</value>
+  </data>
+  <data name="&gt;&gt;receivedLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="clearBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="portLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Semibold, 12pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;statusLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;sendLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;receivedTextBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="button1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>187, 32</value>
+  </data>
+  <data name="portLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;receivedLabel.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="portBox.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="portLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 15</value>
+  </data>
+  <data name="receivedLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;clearBtn.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="sendFileBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;receivedTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>442, 247</value>
+  </data>
+  <data name="&gt;&gt;receivedTextBox.Name" xml:space="preserve">
+    <value>receivedTextBox</value>
+  </data>
+  <data name="clearBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 204</value>
+  </data>
+  <data name="&gt;&gt;clearBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="sendTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;portLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="sendBtn.Text" xml:space="preserve">
+    <value>Küldés</value>
+  </data>
+  <data name="receivedTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>187, 112</value>
+  </data>
+  <data name="sendLabel.Text" xml:space="preserve">
+    <value>Küldés:</value>
+  </data>
+  <data name="sendLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Semibold, 12pt, style=Bold</value>
+  </data>
+  <data name="button1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>240, 172</value>
+  </data>
+  <data name="loggerLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;sendFileBtn.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;sendFileBtn.Name" xml:space="preserve">
+    <value>sendFileBtn</value>
+  </data>
+  <data name="receivedLabel.Text" xml:space="preserve">
+    <value>Fogadott:</value>
+  </data>
+  <data name="&gt;&gt;button1.Name" xml:space="preserve">
+    <value>button1</value>
+  </data>
+  <data name="button1.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="receivedLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 62</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>7, 15</value>
+  </data>
+  <data name="receivedLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="statusLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;receivedTextBox.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;sendTextBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;sendBtn.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, System.Private.CoreLib, Culture=neutral, PublicKeyToken=7cec85d7bea7798e">
+    <value>hu</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+</root>
